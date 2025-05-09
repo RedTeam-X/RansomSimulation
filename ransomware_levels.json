@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Payload Genesis",
+    "difficulty": "Easy",
+    "description": "Buat virus pertamamu. XOR sederhana untuk mengenkripsi file. Target: folder dummy.",
+    "goal": "Enkripsi file .txt di folder target menggunakan kunci statik."
+  },
+  {
+    "id": 2,
+    "name": "Infected Courier",
+    "difficulty": "Easy",
+    "description": "Payload disamarkan jadi aplikasi. Kirim via .apk dan tunggu korban jalankan.",
+    "goal": "Buat dan tanam payload dalam APK dummy. Uji eksekusi manual."
+  },
+  {
+    "id": 3,
+    "name": "Silent Lock",
+    "difficulty": "Medium",
+    "description": "Payload otomatis mengunci data saat aplikasi dibuka. Tanpa notifikasi.",
+    "goal": "File di folder /Hacking/ dikunci otomatis saat app dibuka."
+  },
+  {
+    "id": 4,
+    "name": "Captive Illusion",
+    "difficulty": "Medium",
+    "description": "Palsukan halaman login WiFi publik. Arahkan korban ke APK palsu.",
+    "goal": "Buat captive portal di WiFi dan arahkan korban ke halaman update sistem."
+  },
+  {
+    "id": 5,
+    "name": "Wormpath Spread",
+    "difficulty": "Hard",
+    "description": "Payload menyebar ke IP lokal dalam jaringan. Pindah antar device secara otomatis.",
+    "goal": "Payload jalan otomatis ke 192.168.x.x lain, uji penyebaran."
+  },
+  {
+    "id": 6,
+    "name": "Man-In-The-Root",
+    "difficulty": "Hard",
+    "description": "Intercept koneksi korban dan inject payload. Gunakan MITM + inject HTTP.",
+    "goal": "Giring korban buka halaman palsu lewat jaringan lokal."
+  },
+  {
+    "id": 7,
+    "name": "KeyForge Protocol",
+    "difficulty": "Hard",
+    "description": "Key enkripsi dihasilkan dari IMEI atau waktu. Analisis pola dan bangun decryptor.",
+    "goal": "Bangun ransomware dengan key dinamis. Siapkan tantangan reverse."
+  },
+  {
+    "id": 8,
+    "name": "Crypt Maze",
+    "difficulty": "Very Hard",
+    "description": "Enkripsi file dengan AES-128. Tambahkan junk data & rename ekstensi.",
+    "goal": "File terkunci dan disamarkan. Bangun tool untuk mendeteksi dan membongkar."
+  },
+  {
+    "id": 9,
+    "name": "NoEscape Stub",
+    "difficulty": "Very Hard",
+    "description": "Inject payload ke aplikasi lain tanpa terlihat. Hasilkan stub stealth.",
+    "goal": "Gabungkan payload ke APK asli dan tetap bisa dibuka normal."
+  },
+  {
+    "id": 10,
+    "name": "LOCKBIT Protocol",
+    "difficulty": "Nightmare",
+    "description": "Simulasi ransomware kelas atas: AES + RSA hybrid, tidak ada kunci. Harus di-reverse.",
+    "goal": "Buat ransomware lengkap + simulasi decryptor. Tidak ada clue."
+  },
+  {
+    "id": 99,
+    "name": "RE:Decryption",
+    "difficulty": "Whitehat",
+    "description": "Balik peran. Kamu sebagai penyelamat data. Bongkar ransomware yang kamu buat sendiri.",
+    "goal": "Analisa payload, bongkar algoritma, kembalikan data korban."
+  }
+]
